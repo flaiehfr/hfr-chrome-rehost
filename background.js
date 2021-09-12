@@ -28,8 +28,6 @@ chrome.contextMenus.onClicked.addListener(function (e, f) {
     if (!e.menuItemId.startsWith("rehost") && e.mediaType !== "image")
         return;
 
-    const url = "https://rehost.diberie.com/Upload?url=" + encodeURI(e.srcUrl);
-
     chrome.tabs.sendMessage(f.id, "fetchImage", { frameId: e.frameId }, data => {
         srcToFile(data, 'foo.png', 'image/png').then(file => {
             var formData = new FormData();
