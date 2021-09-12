@@ -1,0 +1,31 @@
+{
+    "name": "Send to Rehost",
+    "description": "Right click, send to rehost",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+      },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js":      ["content.js"],
+        "all_frames": true,
+        "match_about_blank": true
+    }],
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "tabs",
+        "background",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
