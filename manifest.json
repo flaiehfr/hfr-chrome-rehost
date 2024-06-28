@@ -2,7 +2,7 @@
     "name": "Send to Rehost",
     "description": "Right click, send to rehost",
     "version": "1.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "background": {
         "persistent": false,
         "scripts": [
