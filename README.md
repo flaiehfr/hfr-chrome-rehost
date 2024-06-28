@@ -6,10 +6,25 @@ Certains sites protègent l'accès donc ça ne fonctionne pas toujours, c'est en
 
 ## Installation
 
-1. Aller sur [chrome://extensions/](chrome://extensions/) 
-2. cliquer sur **Charger l'extension non empaquetée**
-3. choisir le dossier où vous avez téléchargé ce repository
+1. Télécharger le code source du plugin en cliquant sur `Code` puis `Download ZIP`, puis extraire le fichier ZIP quelque part sur votre ordinateur:
 
+![](https://rehost.diberie.com/Picture/Get/f/297006)
+
+2. Aller dans la barre d'URL et tapper `chrome://extensions/`:
+   
+ ![](https://rehost.diberie.com/Picture/Get/f/297004)
+ 
+3. cliquer sur **Charger l'extension non empaquetée**
+
+ ![](https://rehost.diberie.com/Picture/Get/f/297005)
+ 
+4. choisir le dossier où vous avez téléchargé le contenu au point 1.
+
+5. L'extension doit apparaitre:
+
+![](https://rehost.diberie.com/Picture/Get/f/297008)
+
+ 
 ## Utilisation 
 
 ![example.png](example.png)
